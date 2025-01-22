@@ -1,6 +1,6 @@
 'use strict'
 
-let ulParentElement = document.querySelector('.task-menu');
+const ulParentElement = document.querySelector('.task-menu');
 const textBtn = document.querySelector('.text-btn');
 
 ulParentElement.onclick = (event) => {
